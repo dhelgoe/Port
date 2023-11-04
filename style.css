@@ -1,0 +1,133 @@
+/* Apply a background image to the header section */
+.header {
+    background-image: url('port.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+}
+
+/* Style the h1 and button in the header */
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* Navigation Links */
+.nav-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: text-decoration 0.3s ease-in-out;
+    font-size: 2em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+.about-section {
+    background-image: url('aboutme.jpg');
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.about-content {
+    padding: 100px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-content p {
+    font-size: 18px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Make the section a reference point for positioning */
+}
+
+/* Social Links */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+.project img {
+    width: 100%; /* Make sure the image fits within the project div */
+    border-radius: 5px; /* Match the border radius of the project div */
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    display: block;
+    margin-top: 15px;
+}
